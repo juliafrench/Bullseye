@@ -1,5 +1,45 @@
-h1 {font-family: 'Abel', sans-serif;
-font-size: 7em;}
+
+
+
+header{width:100%;
+  border-bottom-style: groove;
+  border-bottom-width: medium;
+  border-bottom-color: black;
+     }
+
+    header img{ width: 10%; /*width of image*/ 
+      padding: 4em; 2em; 0em; 2em;
+               }
+
+   h1{
+
+    display:inline; /*Balance of space left by logo.*/
+    font-family: 'Abel', sans-serif; font-size: 6em; /*google font*/
+     line-height: 3em;
+    padding-left: .5em; 
+    vertical-align: text-bottom;
+    
+}
+
+
+section {float:right;
+        width: 80%}
+
+section img { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4em;
+    
+  padding:5px;
+   border:5px solid #021a40;
+   background-color:#663300;}
+
+
+section p {margin-left: auto;
+          margin-right: auto;
+          width: 60em;}
+
+
 
 
 html {
