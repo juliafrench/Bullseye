@@ -1,0 +1,45 @@
+/**********************
+FOOTER
+***********************/
+
+#lesson2img {
+  border-radius: 10%;
+  max-width: 500px;
+}
+
+footer {
+  font-weight: 800;
+  text-align: center;
+  clear: both;
+  padding-top: 25px;
+  background-color: lightgray;
+  border-style: double;
+  border-color: dimgray;
+  color: white;
+}
+
+footer a {
+  padding: 15px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px;
+}
+
+footer [class ^= 'footer-'] {
+    width: 33.3333%;
+    display: inline-block;
+    text-align: center;
+}
+
+footer .footer-left {
+    float: left;
+}
+
+footer .footer-right {
+    float: right;
+}
